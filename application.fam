@@ -1,0 +1,13 @@
+App(
+    appid="eeprom_resetter",
+    name="EEPROM Resetter",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="eeprom_reset_main",
+    requires=[
+        "gui",
+    ],
+    stack_size=2 * 1024,
+    order=20,
+    fap_category="GPIO",
+    fap_icon_assets="images",
+)
