@@ -9,6 +9,7 @@ pip install ufbt
 to build app run ufbt
 
 Flipper Pin	GPIO PINS
+
 PIN 9	- 3V3	VCC (Power)
 
 PIN 8, 11, or 18	- GND
